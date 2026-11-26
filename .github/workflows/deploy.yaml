@@ -61,4 +61,4 @@ jobs:
 
       - name: Deploy Toolkit
         run: |
-          cdf deploy --env=${{ matrix.environment }}
+          cdf deploy
